@@ -1,9 +1,32 @@
-.comment{
-	opacity: 0;
-	transition: all 3s;
+.comment {
+    opacity: 0;
+    transition: all 3s;
 }
 
-.comment.active{
-	opacity: 1;
-	transition: all 3s;
+.comment.active {
+    opacity: 1;
+    transition: all 3s;
+}
+
+.box {
+    width: 200px;
+    height: 150px;
+    border: 1px solid blue;
+    position: relative;
+    overflow: hidden;
+}
+
+.box:hover .title{
+	bottom:0;
+}
+
+.title {
+	transition: all 1s;
+	background: purple;
+	color: pink;
+	text-align: center;
+	padding: 5px 0;
+	width: 100%;
+	position: absolute;
+	bottom: -35px;
 }
