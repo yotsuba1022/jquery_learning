@@ -15,7 +15,7 @@ jQuery(document).ready(function($) {
 	});
 
 	$('.slideButton').click(function(event) {
-		slideComment();
+		slideCommentByCss();
 	});
 });
 
@@ -32,12 +32,17 @@ function slide() {
 
 function fade() {
 	$('.text').fadeToggle(3000, function() {
-		
 	});
 }
 
 function slideComment() {
 	$('.comment').slideToggle(1000, function() {
-		
 	});
+}
+
+function slideCommentByCss() {
+	//It means that if the target element does not have active class, then add it, or remove it.
+	$('.comment').toggleClass('active');
+	//$('.comment').addClass('active');
+	//$('.comment').removeClass('active');
 }
