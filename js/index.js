@@ -1,6 +1,9 @@
 //Put all your jQuery code in this block. 
-$(document).ready(function() {
-    sparking(5);
+jQuery(document).ready(function($) {
+	$('.button').click(function(event) {
+		sparking(1);
+	});
+	
 });
 
 function sparking(time) {
