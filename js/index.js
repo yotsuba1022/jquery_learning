@@ -10,6 +10,13 @@ jQuery(document).ready(function($) {
 		$('h1,p').toggle();
 	});
 	
+	$('.fadeButton').click(function(event) {
+		fade();
+	});
+
+	$('.slideButton').click(function(event) {
+		slideComment();
+	});
 });
 
 function sparking(time) {
@@ -21,4 +28,16 @@ function sparking(time) {
 
 function slide() {
 	$('h1').slideToggle();
+}
+
+function fade() {
+	$('.text').fadeToggle(3000, function() {
+		
+	});
+}
+
+function slideComment() {
+	$('.comment').slideToggle(1000, function() {
+		
+	});
 }
