@@ -1,0 +1,36 @@
+.header {
+	height: 100px;
+	background: purple;
+}
+
+.menu {
+	float: right;
+}
+
+.menu a {
+	text-decoration: none;
+	padding: .5em 0;
+	background: pink;
+	border: 1px solid gray;
+	display: block;
+	text-align: center;
+	transition: all .3s;
+}
+
+.menu a:hover, .menu a.active {
+	background: #ff9cab;
+	color: black;
+}
+
+.menu > li {
+	float: left;
+	width: 200px;
+}
+
+.menu ul {
+	display: none;
+}
+
+/*.menu > li:hover ul {
+	display: block;
+}*/
