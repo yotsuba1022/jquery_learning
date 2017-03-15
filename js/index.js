@@ -17,6 +17,16 @@ jQuery(document).ready(function($) {
 	$('.slideButton').click(function(event) {
 		slideCommentByCss();
 	});
+
+	$('.start').click(function(event) {
+		$('.box2').slideUp(3000).slideDown('3000', function() {
+			
+		}).fadeOut(2000, function() {
+			
+		}).fadeIn(2000, function() {
+			
+		});
+	});
 });
 
 function sparking(time) {
@@ -46,3 +56,5 @@ function slideCommentByCss() {
 	//$('.comment').addClass('active');
 	//$('.comment').removeClass('active');
 }
+
+

@@ -30,3 +30,9 @@
 	position: absolute;
 	bottom: -35px;
 }
+
+.box2 {
+	height: 300px;
+	width: 300px;
+	background: black;
+}
