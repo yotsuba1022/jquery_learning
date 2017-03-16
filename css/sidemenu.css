@@ -34,3 +34,10 @@
 .open .aside {
     transform: translateX(0px);
 }
+
+.top {
+	width: 200px;
+	height: 30px;
+	background: pink;
+	float: left;
+}
