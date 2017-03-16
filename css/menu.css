@@ -1,15 +1,33 @@
-.menu {
-	width: 500px;
+.cart {
+	width: 300px;
 	height: 20px auto;
 }
 
-.menu li {
-	padding: 5px;
-	border: 1px solid;
+.cart h2 {
 	margin-bottom: 1em;
+	font-size: 19.2px;
 }
 
-.menu li:hover, .menu li.active {
-	background: blue;
+.cart li {
+	padding: 5px;
+	border: 1px solid grey;
+	margin-bottom: 2em;
+}
+
+.cart li.active {
+	background: #8bc34a;
 	color: white;
 }
+
+.addToCart {
+	background: blue;
+	color: white;
+	border: none;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.addToCart:hover, .addToCart.active {
+	background: #008DD8;
+}
+

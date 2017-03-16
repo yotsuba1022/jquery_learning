@@ -1,5 +1,6 @@
 jQuery(document).ready(function($) {
-	$('.menu li').click(function(event) {
+	$('.addToCart').click(function(event) {
 		$(this).toggleClass('active');
+		$(this).parent().toggleClass('active');
 	});
 });
