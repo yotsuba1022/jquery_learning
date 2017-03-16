@@ -25,4 +25,9 @@ jQuery(document).ready(function($) {
         event.preventDefault();
         $('.textblock p').css('font-size', '10px');
     });
+
+    $('.ad-close').click(function(event) {
+        event.preventDefault();
+        $('.ad').fadeOut();
+    });
 });
