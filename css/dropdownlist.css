@@ -34,3 +34,21 @@
 /*.menu > li:hover ul {
 	display: block;
 }*/
+
+.box1, .box2, .box3 {
+	width: 100px;
+	height: 100px;
+	display: none;
+}
+
+.box1 {
+	background: blue;
+}
+
+.box2 {
+	background: pink;
+}
+
+.box3 {
+	background: orange;
+}
