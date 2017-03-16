@@ -30,4 +30,8 @@ jQuery(document).ready(function($) {
         event.preventDefault();
         $('.ad').fadeOut();
     });
+
+    $('.foldbox').click(function(event) {
+        $('.box').stop().slideToggle(1000);
+    });
 });
