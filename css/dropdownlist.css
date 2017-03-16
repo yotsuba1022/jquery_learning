@@ -1,54 +1,73 @@
 .header {
-	height: 100px;
-	background: purple;
+    height: 100px;
+    background: purple;
 }
 
 .menu {
-	float: right;
+    float: right;
 }
 
-.menu a {
-	text-decoration: none;
-	padding: .5em 0;
-	background: pink;
-	border: 1px solid gray;
-	display: block;
-	text-align: center;
-	transition: all .3s;
+.menu a,
+.fontsize a {
+    text-decoration: none;
+    padding: .5em 0;
+    background: pink;
+    border: 1px solid gray;
+    display: block;
+    text-align: center;
+    transition: all .3s;
 }
 
-.menu a:hover, .menu a.active {
-	background: #ff9cab;
-	color: black;
+.menu a:hover,
+.fontsize a:hover,
+.menu a.active {
+    background: #ff9cab;
+    color: black;
 }
 
 .menu > li {
-	float: left;
-	width: 200px;
+    float: left;
+    width: 200px;
 }
 
 .menu ul {
-	display: none;
+    display: none;
 }
+
 
 /*.menu > li:hover ul {
 	display: block;
 }*/
 
-.box1, .box2, .box3 {
-	width: 100px;
-	height: 100px;
-	display: none;
+.fontsize {
+    float: left;
+}
+
+.fontsize li {
+    float: left;
+    width: 60px;
+}
+
+.textblock p {
+	font-size: 20px;
+}
+
+.box1,
+.box2,
+.box3 {
+    width: 100px;
+    height: 100px;
+    display: none;
 }
 
 .box1 {
-	background: blue;
+    background: blue;
 }
 
 .box2 {
-	background: pink;
+    background: pink;
 }
 
 .box3 {
-	background: orange;
+    background: orange;
 }
