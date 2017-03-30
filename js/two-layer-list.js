@@ -3,5 +3,7 @@ jQuery(document).ready(function($) {
 		event.preventDefault();
 		$(this).parent().siblings().find('ul').slideUp();
 		$(this).parent().find('ul').slideToggle();
+		//$('.box').html('<h2>Invisible</h2>');
+		$('.box').text('Hi');
 	});
 });
