@@ -14,4 +14,9 @@ jQuery(document).ready(function($) {
 	$('.remove').click(function(event) {
 		$(this).parent().parent().remove();
 	});
+
+	$('.top a').click(function(event) {
+		event.preventDefault();
+		$('html, body').animate({scrollTop:0}, '10000');
+	});
 });
