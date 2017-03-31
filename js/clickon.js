@@ -7,4 +7,6 @@ jQuery(document).ready(function($) {
 	// 	alert('It works.');
 	// });
 	$('.box1').html('<h1>用jQuery動態產生的</h1>');
+
+	$('img').attr('width','80');
 });
